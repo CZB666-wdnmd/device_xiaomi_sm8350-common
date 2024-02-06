@@ -545,6 +545,9 @@ PRODUCT_COPY_FILES += \
 # Vibrator
 $(call inherit-product, hardware/xiaomi/aidl/vibrator/vibrator-vendor-product.mk)
 
+# Viper
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # VNDK
 # vndservicemanager has been removed from API30 devices (aosp/1235751)
 # but we still need it for display services.
